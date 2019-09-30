@@ -11,7 +11,7 @@
 import urllib2
 import logging
 
-HOST='http://oceanic-trees-254104-86687719cba9.appspot.com'
+HOST='http://oceanic-trees-254104.appspot.com'
 
 # [START e2e]
 response = urllib2.urlopen("{}/get_author/ulysses".format(HOST))
